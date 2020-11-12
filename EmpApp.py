@@ -28,7 +28,7 @@ def home():
 
 @app.route("/about", methods=['POST'])
 def about():
-    return render_template('www.intellipaat.com')
+    return render_template('about.html')
 
 
 @app.route("/addemp", methods=['POST'])
@@ -79,7 +79,6 @@ def AddEmp():
 
     print("all modification done...")
     return render_template('AddEmpOutput.html', name=emp_name)
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True)
