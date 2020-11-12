@@ -1,6 +1,6 @@
 customhost = "projectemployeedb.co7a2mjr9mmv.us-east-1.rds.amazonaws.com"
 customuser = "krzno"
 custompass = "password12"
-customdb = "projectemployeedb"
+customdb = "ProjectEmployeeDB"
 custombucket = "addemployeeproject"
 customregion = "us-east-1a"
